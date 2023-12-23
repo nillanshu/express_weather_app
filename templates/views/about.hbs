@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    {{>links}}
+</head>
+<body>
+    {{>navbar}}
+    <!-- main header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-10 mx-auto">
+                <div class="row">
+                    <!-- left side div -->
+                    <div class="col-md-6 col-12 main_header_right">
+                        <figure>
+                            <img src="images/hero.png" alt="nillanshu" class="img-fluid hero-img" title="nillanshu">
+                        </figure>
+                    </div>
+
+                    <!-- right side div -->
+                    <div class="col-md-6 col-12 main_header_left">
+                        <p>Welcome to weather app</p>
+                        <h1>I Am A <span class="text_clr">Mern Stack Developer</span>, Full Stack Developer And A Freelancer</h1>
+                        <a href="https://nillanshu-saini.netlify.app/" target="_blank"><button>About Me</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer code -->
+    {{>footer}}
+</body>
+</html>
